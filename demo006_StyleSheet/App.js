@@ -17,6 +17,10 @@ export default class App extends Component {
       <View>
         <Text style={{fontSize: 30}}> textInComponent </Text>
         <Text style={[{fontSize: 20}, {color: 'red'}]}> textInComponent </Text>
+        
+        {/* 以陣列方式套用相同屬性的樣式，後面的優先級比較高 */}
+        <Text style={[{color: 'green'}, {color: 'red'}]}>textInComponent</Text>
+        
         <Text style={[style.h1, style.h2]}> textInComponent </Text>
       </View>
     );
