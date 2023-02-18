@@ -16,4 +16,6 @@ demo022_Animated(下)
 demo023_WebView
 demo024_Picker
 demo025_Swiper
-demo026_
+demo026_AsyncStorage(上)
+demo027_AsyncStorage(下)
+demo028_
