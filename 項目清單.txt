@@ -19,3 +19,4 @@ demo025_Swiper
 demo026_AsyncStorage(上)
 demo027_AsyncStorage(下)
 demo028_Geolocation
+demo029_Camera
