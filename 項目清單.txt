@@ -8,7 +8,7 @@ demo014_ActivityIndicator
 demo015_Image
 demo016_TextInput
 demo017_Touchable組件
-demo018_ScrollView和SafeAreaView和SaveAreaView
+demo018_ScrollView和SafeAreaView
 demo019_SectionList
 demo020_FlatList
 demo021_Animated(上)

@@ -46,7 +46,7 @@ export default class App extends PureComponent {
       const options = {quality: 0.5, base64: true};
       const data = await this.camera.takePictureAsync(options);
       Alert.alert('圖片路徑:', data.uri);
-      console.log(data)
+      console.log(data);
     }
   };
 }
