@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Text, StyleSheet, View} from 'react-native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import UserScreen from '../screens/User';
+import UserStackScreen from '../screens/User';
 //hint(多選修改):選中User單字後ctrl + shift + l
 const Stack = createNativeStackNavigator();
 
@@ -11,7 +11,7 @@ export default class UserStack extends Component {
       <Stack.Navigator>
         <Stack.Screen
           name="UserStack"
-          component={UserScreen}
+          component={UserStackScreen}
           options={{
             title: '用戶',
             headerTitleStyle: {color: '#bfa'},
