@@ -276,7 +276,7 @@ const styles = StyleSheet.create({
   },
   signIn: {borderRadius: 10},
   signInText: {
-    color: '#ddd',
+    color: '#fff',
     fontSize: 20,
     paddingVertical: 10,
     textAlign: 'center',
