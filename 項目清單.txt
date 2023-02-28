@@ -34,3 +34,4 @@ demo052_用戶頁(上)
 demo053_用戶頁(中)
 demo054_用戶頁(下)
 demo055_Redux
+demo056_路由鑒權
